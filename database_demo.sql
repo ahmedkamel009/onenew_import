@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 20, 2018 at 11:52 PM
+-- Generation Time: Mar 21, 2018 at 01:25 PM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 7.0.8
 
@@ -115,45 +115,44 @@ CREATE TABLE `properties` (
 --
 
 INSERT INTO `properties` (`id`, `name`, `price`, `is_poa`, `area`, `status_id`, `override_status_id`, `image`, `points`, `center_x`, `center_y`, `automatic_image`, `override_image`, `custom_fields`, `sort_order`, `section_id`, `created_at`, `updated_at`, `deleted_at`, `via_runway`, `via_import`, `lot_id`, `runway_status`) VALUES
-(1, 'Lot 104, Stage 2 Calibre, Bushmead', NULL, NULL, '370', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, NULL, NULL, NULL, 0, 1, '104', NULL),
-(2, 'Lot 105, Stage 2 Calibre, Bushmead', NULL, NULL, '445', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, NULL, NULL, NULL, 0, 1, '105', NULL),
-(3, 'Lot 107, Stage 2 Calibre, Bushmead', NULL, NULL, '450', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, NULL, NULL, NULL, 0, 1, '107', NULL),
-(4, 'Lot 108, Stage 2 Calibre, Bushmead', NULL, NULL, '450', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, NULL, NULL, NULL, 0, 1, '108', NULL),
-(5, 'Lot 109, Stage 2 Calibre, Bushmead', NULL, NULL, '450', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, NULL, NULL, NULL, 0, 1, '109', NULL),
-(6, 'Lot 113, Stage 2 Calibre, Bushmead', NULL, NULL, '367', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, NULL, NULL, NULL, 0, 1, '113', NULL),
-(7, 'Lot 146, Stage 1 Overwatch, Bushmead ', NULL, NULL, '301', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '146', NULL),
-(8, 'Lot 236, Stage 1 Overwatch, Bushmead ', NULL, NULL, '381', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '236', NULL),
-(9, 'Lot 240, Stage 1 Overwatch, Bushmead ', NULL, NULL, '225', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"0d640498fb206f2d67e1829ba976d945":7.5},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '240', NULL),
-(10, 'Lot 241, Stage 1 Overwatch, Bushmead ', NULL, NULL, '240', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"c9f0f895fb98ab9159f51fd0297e236d":8},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '241', NULL),
-(11, 'Lot 242, Stage 1 Overwatch, Bushmead ', NULL, NULL, '225', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"0d640498fb206f2d67e1829ba976d945":7.5},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '242', NULL),
-(12, 'Lot 243, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '243', NULL),
-(13, 'Lot 244, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '244', NULL),
-(14, 'Lot 246, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '246', NULL),
-(15, 'Lot 247, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '247', NULL),
-(16, 'Lot 248, Stage 1 Overwatch, Bushmead ', NULL, NULL, '224', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"0d640498fb206f2d67e1829ba976d945":7.5},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '248', NULL),
-(17, 'Lot 249, Stage 1 Overwatch, Bushmead ', NULL, NULL, '225', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"0d640498fb206f2d67e1829ba976d945":7.5},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '249', NULL),
-(18, 'Lot 250, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '250', NULL),
-(19, 'Lot 251, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '251', NULL),
-(20, 'Lot 252, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '252', NULL),
-(21, 'Lot 253, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '253', NULL),
-(22, 'Lot 255, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, NULL, NULL, NULL, 0, 1, '255', NULL),
-(23, 'Lot 59, Stage 2 Calibre, Bushmead', NULL, NULL, '510', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"70efdf2ec9b086079795c442636b55fb":17},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, NULL, NULL, NULL, 0, 1, '59', NULL),
-(24, 'Lot 60, Stage 2 Calibre, Bushmead', NULL, NULL, '510', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"70efdf2ec9b086079795c442636b55fb":17},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, NULL, NULL, NULL, 0, 1, '60', NULL),
-(25, 'Lot 61, Stage 2 Calibre, Bushmead', NULL, NULL, '510', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"70efdf2ec9b086079795c442636b55fb":17},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, NULL, NULL, NULL, 0, 1, '61', NULL),
-(26, 'Lot 64, Stage 2 Calibre, Bushmead', NULL, NULL, '510', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"70efdf2ec9b086079795c442636b55fb":17},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, NULL, NULL, NULL, 0, 1, '64', NULL),
-(27, 'Lot 66, Stage 2 Calibre, Bushmead', NULL, NULL, '519', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"aab7d9999e13470c54d4539b05703776":17.3},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, NULL, NULL, NULL, 0, 1, '66', NULL),
-(28, 'Lot 83, Stage 2 Calibre, Bushmead', NULL, NULL, '445', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, NULL, NULL, NULL, 0, 1, '83', NULL),
-(29, 'Lot 85, Stage 2 Calibre, Bushmead', NULL, NULL, '370', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, NULL, NULL, NULL, 0, 1, '85', NULL),
-(59, 'Lot 104, Stage 2 Calibre, sydney', NULL, NULL, '370', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 3, NULL, NULL, NULL, 0, 1, '104', NULL),
-(60, 'Lot 105, Stage 2 Calibre, sydney', NULL, NULL, '445', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 3, NULL, NULL, NULL, 0, 1, '105', NULL),
-(61, 'Lot 107, Stage 2 Calibre, sydney', NULL, NULL, '450', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 3, NULL, NULL, NULL, 0, 1, '107', NULL),
-(62, 'Lot 108, Stage 2 Calibre, sydney', NULL, NULL, '450', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 3, NULL, NULL, NULL, 0, 1, '108', NULL),
-(63, 'Lot 109, Stage 2 Calibre, sydney', NULL, NULL, '450', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 3, NULL, NULL, NULL, 0, 1, '109', NULL),
-(64, 'Lot 113, Stage 2 Calibre, sydney', NULL, NULL, '367', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 3, NULL, NULL, NULL, 0, 1, '113', NULL),
-(65, 'Lot 146, Stage 1 Overwatch, sydney ', NULL, NULL, '301', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 4, NULL, NULL, NULL, 0, 1, '146', NULL),
-(66, 'Lot 236, Stage 1 Overwatch, sydney ', NULL, NULL, '381', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 4, NULL, NULL, NULL, 0, 1, '236', NULL),
-(67, 'Lot 240, Stage 1 Overwatch, sydney ', NULL, NULL, '225', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"0d640498fb206f2d67e1829ba976d945":7.5},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 4, NULL, NULL, NULL, 0, 1, '240', NULL),
-(68, 'Lot 241, Stage 1 Overwatch, sydney ', NULL, NULL, '240', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"c9f0f895fb98ab9159f51fd0297e236d":8},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 4, NULL, NULL, NULL, 0, 1, '241', NULL);
+(2, 'Lot 105, Stage 2 Calibre, sydney', NULL, NULL, '445', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 3, '2018-03-21 09:25:51', '2018-03-21 09:51:33', NULL, 0, 1, '105', NULL),
+(3, 'Lot 107, Stage 2 Calibre, sydney', NULL, NULL, '450', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 3, '2018-03-21 09:25:51', '2018-03-21 09:51:33', NULL, 0, 1, '107', NULL),
+(4, 'Lot 108, Stage 2 Calibre, sydney', NULL, NULL, '450', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 3, '2018-03-21 09:25:51', '2018-03-21 09:51:33', NULL, 0, 1, '108', NULL),
+(5, 'Lot 109, Stage 2 Calibre, sydney', NULL, NULL, '450', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 3, '2018-03-21 09:25:51', '2018-03-21 09:51:33', NULL, 0, 1, '109', NULL),
+(6, 'Lot 113, Stage 2 Calibre, sydney', NULL, NULL, '367', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 3, '2018-03-21 09:25:51', '2018-03-21 09:51:33', NULL, 0, 1, '113', NULL),
+(7, 'Lot 146, Stage 1 Overwatch, sydney ', NULL, NULL, '301', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 4, '2018-03-21 09:25:51', '2018-03-21 09:51:33', NULL, 0, 1, '146', NULL),
+(8, 'Lot 236, Stage 1 Overwatch, sydney ', NULL, NULL, '381', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 4, '2018-03-21 09:25:51', '2018-03-21 09:51:33', NULL, 0, 1, '236', NULL),
+(9, 'Lot 240, Stage 1 Overwatch, sydney ', NULL, NULL, '225', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"0d640498fb206f2d67e1829ba976d945":7.5},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 4, '2018-03-21 09:25:51', '2018-03-21 09:51:34', NULL, 0, 1, '240', NULL),
+(11, 'Lot 242, Stage 1 Overwatch, Bushmead ', NULL, NULL, '225', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"0d640498fb206f2d67e1829ba976d945":7.5},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 09:25:51', '2018-03-21 09:25:51', NULL, 0, 1, '242', NULL),
+(12, 'Lot 243, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 09:25:51', '2018-03-21 09:25:51', NULL, 0, 1, '243', NULL),
+(13, 'Lot 244, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 09:25:52', '2018-03-21 09:25:52', NULL, 0, 1, '244', NULL),
+(44, 'Lot 104, Stage 2 Calibre, sydney', NULL, NULL, '370', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 3, '2018-03-21 09:43:50', '2018-03-21 10:19:36', NULL, 0, 1, '104', NULL),
+(45, 'Lot 104, Stage 2 Calibre, Bushmead', NULL, NULL, '370', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, '2018-03-21 09:53:48', '2018-03-21 09:53:48', NULL, 0, 1, '104', NULL),
+(46, 'Lot 105, Stage 2 Calibre, Bushmead', NULL, NULL, '445', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, '2018-03-21 09:53:49', '2018-03-21 09:53:49', NULL, 0, 1, '105', NULL),
+(47, 'Lot 107, Stage 2 Calibre, Bushmead', NULL, NULL, '450', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, '2018-03-21 09:53:49', '2018-03-21 09:53:49', NULL, 0, 1, '107', NULL),
+(48, 'Lot 108, Stage 2 Calibre, Bushmead', NULL, NULL, '450', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, '2018-03-21 09:53:49', '2018-03-21 09:53:49', NULL, 0, 1, '108', NULL),
+(49, 'Lot 109, Stage 2 Calibre, Bushmead', NULL, NULL, '450', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, '2018-03-21 09:53:49', '2018-03-21 09:53:49', NULL, 0, 1, '109', NULL),
+(50, 'Lot 113, Stage 2 Calibre, Bushmead', NULL, NULL, '367', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, '2018-03-21 09:53:49', '2018-03-21 09:53:49', NULL, 0, 1, '113', NULL),
+(51, 'Lot 146, Stage 1 Overwatch, Bushmead ', NULL, NULL, '301', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 09:53:49', '2018-03-21 09:53:49', NULL, 0, 1, '146', NULL),
+(52, 'Lot 236, Stage 1 Overwatch, Bushmead ', NULL, NULL, '381', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 09:53:49', '2018-03-21 09:53:49', NULL, 0, 1, '236', NULL),
+(53, 'Lot 240, Stage 1 Overwatch, Bushmead ', NULL, NULL, '225', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"0d640498fb206f2d67e1829ba976d945":7.5},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 09:53:49', '2018-03-21 09:53:49', NULL, 0, 1, '240', NULL),
+(54, 'Lot 241, Stage 1 Overwatch, Bushmead ', NULL, NULL, '240', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"c9f0f895fb98ab9159f51fd0297e236d":8},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 09:53:49', '2018-03-21 09:53:49', NULL, 0, 1, '241', NULL),
+(71, 'Lot 246, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '246', NULL),
+(72, 'Lot 247, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '247', NULL),
+(73, 'Lot 248, Stage 1 Overwatch, Bushmead ', NULL, NULL, '224', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"0d640498fb206f2d67e1829ba976d945":7.5},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '248', NULL),
+(74, 'Lot 249, Stage 1 Overwatch, Bushmead ', NULL, NULL, '225', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"0d640498fb206f2d67e1829ba976d945":7.5},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '249', NULL),
+(75, 'Lot 250, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '250', NULL),
+(76, 'Lot 251, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '251', NULL),
+(77, 'Lot 252, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '252', NULL),
+(78, 'Lot 253, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '253', NULL),
+(79, 'Lot 255, Stage 1 Overwatch, Bushmead ', NULL, NULL, '180', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"1679091c5a880faf6fb5e6087eb1b2dc":6},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 2, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '255', NULL),
+(80, 'Lot 59, Stage 2 Calibre, Bushmead', NULL, NULL, '510', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"70efdf2ec9b086079795c442636b55fb":17},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '59', NULL),
+(81, 'Lot 60, Stage 2 Calibre, Bushmead', NULL, NULL, '510', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"70efdf2ec9b086079795c442636b55fb":17},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '60', NULL),
+(82, 'Lot 61, Stage 2 Calibre, Bushmead', NULL, NULL, '510', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"70efdf2ec9b086079795c442636b55fb":17},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '61', NULL),
+(83, 'Lot 64, Stage 2 Calibre, Bushmead', NULL, NULL, '510', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"70efdf2ec9b086079795c442636b55fb":17},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '64', NULL),
+(84, 'Lot 66, Stage 2 Calibre, Bushmead', NULL, NULL, '519', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"aab7d9999e13470c54d4539b05703776":17.3},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '66', NULL),
+(85, 'Lot 83, Stage 2 Calibre, Bushmead', NULL, NULL, '445', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '83', NULL),
+(86, 'Lot 85, Stage 2 Calibre, Bushmead', NULL, NULL, '370', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[{"9bf31c7ff062936a96d3c8bd1f8f2ff3":15},{"d41d8cd98f00b204e9800998ecf8427e":null},{"d41d8cd98f00b204e9800998ecf8427e":null}]', 999, 1, '2018-03-21 10:17:18', '2018-03-21 10:17:18', NULL, 0, 1, '85', NULL);
 
 -- --------------------------------------------------------
 
@@ -187,10 +186,10 @@ CREATE TABLE `sections` (
 --
 
 INSERT INTO `sections` (`id`, `name`, `uid`, `is_active`, `image`, `is_widescreen`, `points`, `tier_three`, `sort_order`, `pdf_optional_note`, `pdf_section`, `pdf`, `project_id`, `stage_id`, `created_at`, `updated_at`, `deleted_at`, `via_runway`) VALUES
-(1, 'Bushmead-Stage 2 Calibre', 'bushmead-stage-2-calibre', 0, NULL, 0, NULL, NULL, 999, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 0),
-(2, 'Bushmead-Stage 1 Overwatch ', 'bushmead-stage-1-overwatch-', 0, NULL, 0, NULL, NULL, 999, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 0),
-(3, 'sydney-Stage 2 Calibre', 'sydney-stage-2-calibre', 0, NULL, 0, NULL, NULL, 999, NULL, NULL, NULL, 2, NULL, NULL, NULL, NULL, 0),
-(4, 'sydney-Stage 1 Overwatch ', 'sydney-stage-1-overwatch-', 0, NULL, 0, NULL, NULL, 999, NULL, NULL, NULL, 2, NULL, NULL, NULL, NULL, 0);
+(1, 'Bushmead-Stage 2 Calibre', NULL, 0, NULL, 0, NULL, NULL, 999, NULL, NULL, NULL, 1, NULL, '2018-03-21 09:25:51', '2018-03-21 09:25:51', NULL, 0),
+(2, 'Bushmead-Stage 1 Overwatch ', NULL, 0, NULL, 0, NULL, NULL, 999, NULL, NULL, NULL, 1, NULL, '2018-03-21 09:25:51', '2018-03-21 09:25:51', NULL, 0),
+(3, 'sydney-Stage 2 Calibre', NULL, 0, NULL, 0, NULL, NULL, 999, NULL, NULL, NULL, 2, NULL, '2018-03-21 09:51:33', '2018-03-21 09:51:33', NULL, 0),
+(4, 'sydney-Stage 1 Overwatch ', NULL, 0, NULL, 0, NULL, NULL, 999, NULL, NULL, NULL, 2, NULL, '2018-03-21 09:51:33', '2018-03-21 09:51:33', NULL, 0);
 
 -- --------------------------------------------------------
 
@@ -218,8 +217,8 @@ CREATE TABLE `statuses` (
 --
 
 INSERT INTO `statuses` (`id`, `code`, `description`, `type`, `show_pdf`, `allow_enquiry`, `foreground`, `background`, `sort_order`, `project_id`, `created_at`, `updated_at`) VALUES
-(1, NULL, 'Released', 'simple', NULL, NULL, '', '', 999, 1, NULL, NULL),
-(2, NULL, 'Released', 'simple', NULL, NULL, '', '', 999, 2, NULL, NULL);
+(1, NULL, 'Released', 'simple', NULL, NULL, '', '', 999, 1, '2018-03-21 09:25:51', '2018-03-21 09:25:51'),
+(2, NULL, 'Released', 'simple', NULL, NULL, '', '', 999, 2, '2018-03-21 09:51:33', '2018-03-21 09:51:33');
 
 --
 -- Indexes for dumped tables
@@ -261,12 +260,12 @@ ALTER TABLE `statuses`
 -- AUTO_INCREMENT for table `projects`
 --
 ALTER TABLE `projects`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
 --
 -- AUTO_INCREMENT for table `properties`
 --
 ALTER TABLE `properties`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=69;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=87;
 --
 -- AUTO_INCREMENT for table `sections`
 --
